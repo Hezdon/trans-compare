@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+
+:root {
+  --primary-blue: #1d3262;
+  --primary-yellow: #f2c623;
+  --font-color: #454545;
+
+  --fontFamily: "Open Sans", "Trebuchet MS", "Comfortaa", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*set a root font size*/
+  font-size: 87.5%;
+  box-sizing: border-box;
+  color: var(--font-color);
+  font-family: var(--fontFamily);
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: inherit;
+  color: inherit;
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
+.error {
+  color: #f51010;
+}
+
+.error-box {
+  color: #f51010;
+  display: block;
+  padding: 0.4em 0;
+  font-size: 12;
+  border-radius: 7px;
+}
+
+.success {
+  color: rgb(20, 161, 43);
+}
+
+.truncate {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.success-box {
+  color: rgb(20, 161, 43);
+  background-color: rgb(211, 243, 216);
+  display: inline-block;
+  padding: 0.4em 0;
+  border-radius: 7px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.small {
+  font-size: 0.85em;
+}
+
+.large {
+  font-size: 1.2em;
+}
+.centered {
+  align-items: center;
+  text-align: center;
+  gap: 0.5em;
+}
+
+.visually-hidden {
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: none !important;
+  clip-path: (0 0 0 0) !important;
+  position: absolute !important;
+  top: -99999em !important;
+  left: -99999em !important;
+  overflow: hidden !important;
+}
